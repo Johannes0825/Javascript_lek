@@ -1,0 +1,20 @@
+.vekter {
+  border: 2px solid black;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 15px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-color: rgb(255, 111, 111);
+}
+
+.btn {
+  font-weight: bold;
+  font-size: medium;
+  padding: 10px 25px;
+}
