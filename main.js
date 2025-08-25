@@ -11,9 +11,3 @@ function checkAge() {
     image.src = "./images/Bouncer2.jpeg";
   }
 }
-
-// Sett standardtekst når siden lastes inn
-document.addEventListener("DOMContentLoaded", () => {
-  let message = document.getElementById("message");
-  message.textContent = "Få se legg!!"; // Sett standardtekst
-});
