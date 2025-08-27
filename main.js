@@ -47,9 +47,7 @@ function handleButtonClick(event) {
   if (!isNaN(price)) {
     let total = calculateTotal(price, tipPercent);
     updateTotalPrice(total);
-  } else {
-    alert("Vennligst skriv inn en gyldig pris.");
-  }
+  } 
 }
 
 buttons.forEach(function (button) {
