@@ -56,3 +56,8 @@ buttons.forEach(function (button) {
   button.addEventListener("click", handleButtonClick);
 });
 
+function reset() {
+  priceInput.value = "";
+  totalPrice.textContent = "0";
+}
+
