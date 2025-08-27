@@ -61,3 +61,28 @@ function reset() {
   totalPrice.textContent = "0";
 }
 
+//basket scorecard
+
+let scoreHome = 0
+let scoreGuest = 0
+
+let scoreHomeEl = document.getElementById("score-home")
+let scoreGuestEl = document.getElementById("score-guest")
+
+
+function incrementHome(amount){
+    scoreHome += amount
+    scoreHomeEl.textContent = scoreHome
+}  
+
+function incrementGuest(amount){
+    scoreGuest += amount
+    scoreGuestEl.textContent = scoreGuest
+}  
+
+function newGame() {
+    scoreHome = 0
+    scoreGuest = 0
+    scoreHomeEl.textContent = scoreHome
+    scoreGuestEl.textContent = scoreGuest
+}
