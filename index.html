@@ -8,13 +8,28 @@
     <script src="main.js" defer></script>
   </head>
   <body>
-    <div class="vekter">
-      <h1>Vekter på nattklubb</h1>
-      <img src="./images/bouncer.jpeg" />
-      <h2 id="message">Få se legg!!</h2>
-      <div>
-        <input class="btn" id="ageInput" placeholder="Skriv alder" />
-        <button class="btn" onclick="checkAge()">Vis til vekter</button>
+    <div class="container">
+      <!-- Vekter på nattklubb -->
+      <div class="card">
+        <h1>Vekter på nattklubb</h1>
+        <img src="./images/bouncer.jpeg" />
+        <h2 id="message">Få se legg!!</h2>
+        <div>
+          <input class="btn" id="ageInput" placeholder="Skriv alder" />
+          <button class="btn" onclick="checkAge()">Vis til vekter</button>
+        </div>
+      </div>
+      <!-- Tip kalkulator -->
+      <div class="card">
+        <h1>Tip kalkulator</h1>
+        <input type="number" id="price-input" class="btn" placeholder="Skriv inn beløp" />
+        <h4>Hvor mye vil du tipse?</h4>
+        <div>
+          <button class="btn" data-percent="5">5%</button>
+          <button class="btn" data-percent="10">10%</button>
+          <button class="btn" data-percent="15">15%</button>
+        </div>
+        <h3>Total Pris: <span id="total-price">0</span></h3>
       </div>
     </div>
   </body>
